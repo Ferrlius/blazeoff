@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": { "item": "minecraft:stone_button"},
+    "X": { "item": "minecraft:blaze_rod" },
+    "Y": { "item": "minecraft:iron_ingot" },
+    "Z": { "item": "minecraft:bucket" }
+  },
+  "pattern": [
+    " W ",
+    "XY ",
+    " Z "
+  ],
+  "result": {
+    "item": "blazeoff:fire_extinguisher",
+    "count": 1
+  },
+  "show_notification": true
+}

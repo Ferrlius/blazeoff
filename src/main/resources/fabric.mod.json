@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "blazeoff",
+	"version": "${version}",
+	"name": "BlazeOff",
+	"description": "A fire extinguisher mod.",
+	"authors": [
+		"Ferrlius"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/blazeoff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ferrlius.blazeoff.BlazeOff"
+		],
+		"client": [
+			"ferrlius.blazeoff.BlazeOffClient"
+		]
+	},
+	"mixins": [
+		"blazeoff.mixins.json",
+		{
+			"config": "blazeoff.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

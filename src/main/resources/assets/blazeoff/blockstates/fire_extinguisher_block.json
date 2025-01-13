@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "blazeoff:block/fire_extinguisher_north" },
+    "facing=south": { "model": "blazeoff:block/fire_extinguisher_south" },
+    "facing=east": { "model": "blazeoff:block/fire_extinguisher_east" },
+    "facing=west": { "model": "blazeoff:block/fire_extinguisher_west" }
+  }
+}
